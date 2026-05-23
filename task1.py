@@ -1,10 +1,4 @@
-user1="sucharitha"
-password1=1234567
-user2="alakambhavya"
-password2=98765
-username=input("enter username:")
-password=input("enter password:")
-login1=("sucharitha"==user1 ) and (1234567==password1)
-login2=("alakambhavya"==user2) and (password2==98765)
-
-print("login successful:",(login1 is False) or(login2 is False) )
+data=[10,20,30,40,50]
+key=2
+print("encode:",data[0]^key,data[1]^key,data[2]^key,data[3]^key,data[4]^key)
+print("decode:",(data[0]^key)^key,(data[1]^key)^key,(data[2]^key)^key,(data[3]^key)^key,(data[4]^key)^key)
